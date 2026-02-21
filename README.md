@@ -1,73 +1,100 @@
-# Welcome to your Lovable project
+# AVERTI – AI-Powered Gas Detection & Fire Safety System
 
-## Project info
+AVERTI is a modern AI-powered gas detection and fire safety monitoring platform designed to enhance industrial safety infrastructure through intelligent sensors, real-time monitoring, and predictive analytics.
 
-**URL**: https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID
+---
 
-## How can I edit this code?
+## 🚀 Live Application
 
-There are several ways of editing your application.
+Production URL:  
+https://avarti-ai.vercel.app
 
-**Use Lovable**
+---
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID) and start prompting.
+## 🛠 Tech Stack
 
-Changes made via Lovable will be committed automatically to this repo.
+This project is built using:
 
-**Use your preferred IDE**
+- Vite
+- React
+- TypeScript
+- Tailwind CSS
+- shadcn-ui
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+---
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+## 📦 Installation (Local Development)
 
-Follow these steps:
+Make sure Node.js is installed.
 
-```sh
-# Step 1: Clone the repository using the project's Git URL.
+### 1️⃣ Clone the repository
+
+```bash
 git clone <YOUR_GIT_URL>
+```
 
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
+### 2️⃣ Navigate into the project
 
-# Step 3: Install the necessary dependencies.
-npm i
+```bash
+cd avarti
+```
 
-# Step 4: Start the development server with auto-reloading and an instant preview.
+### 3️⃣ Install dependencies
+
+```bash
+npm install
+```
+
+### 4️⃣ Start development server
+
+```bash
 npm run dev
 ```
 
-**Edit a file directly in GitHub**
+The app will start with hot-reload enabled.
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+---
 
-**Use GitHub Codespaces**
+## 🏗 Build for Production
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
+To create a production build:
 
-## What technologies are used for this project?
+```bash
+npm run build
+```
 
-This project is built with:
+The optimized output will be generated in the `dist` folder.
 
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
+---
 
-## How can I deploy this project?
+## 🌐 Deployment
 
-Simply open [Lovable](https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID) and click on Share -> Publish.
+This project is deployed using Vercel.
 
-## Can I connect a custom domain to my Lovable project?
+Any push to the main branch automatically triggers a new deployment.
 
-Yes, you can!
+---
 
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
+## 📌 Project Structure
 
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/features/custom-domain#custom-domain)
+```
+src/
+components/
+pages/
+public/
+vite.config.ts
+package.json
+```
+
+---
+
+## 📄 License
+
+This project is proprietary and developed for AVERTI.
+
+---
+
+## 👨‍💻 Author
+
+Developed by Prateek Sharma  
+GitHub: https://github.com/alphaaaaaa-dev
