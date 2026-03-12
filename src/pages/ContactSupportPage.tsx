@@ -119,8 +119,10 @@ const ContactSupportPage = () => {
             <h3 className="font-display text-xs tracking-wider text-foreground mb-2">YOUR SERVICE TEAM</h3>
             {[
               { name: 'Diya Singh Chaudhary', role: 'Founder' },
-              { name: 'Prateek Sharma', role: 'Tech Support' },
-              { name: 'Bhavya Gaur', role: 'Tech Support' },
+              { name: 'Prateek Sharma', role: 'Front and Back End Developer ' },
+              { name: 'Bhavya Gaur', role: 'Back End Developer (Scensors)' },
+              { name: 'Kavyansh Pareek', role: 'R&A Analyst' },
+              { name: 'Akshita Kumawat', role: 'Front End Developer' },
             ].map(p => (
               <div key={p.name} className="flex items-center justify-between py-2 border-b border-border last:border-0 gap-2">
                 <div className="min-w-0">
